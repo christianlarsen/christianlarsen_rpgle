@@ -1,4 +1,3 @@
-# Hello!
-# This is my space for rpgle samples.
+# This is a space for my example sources in RPGLE
 
-Have fun!
+Hi!! Have fun!
