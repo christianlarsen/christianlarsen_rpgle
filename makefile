@@ -6,6 +6,6 @@ SHELL=/QOpenSys/usr/bin/qsh
 all: test11.rpgle
 
 %.rpgle:
-system -s "CHGATR OBJ('./qrpglesrc/$*.rpgle') ATR(*CCSID) VALUE(1252)"
+system -s "CHGATR OBJ('./test11/qrpglesrc/$*.rpgle') ATR(*CCSID) VALUE(1252)"
 liblist -a $(LIBLIST);\
-system "CRTBNDRPG OBJ($(BIN_LIB)/$*) SRCSTMF('./qrpglesrc/$*.rpgle')
+system "CRTBNDRPG OBJ($(BIN_LIB)/$*) SRCSTMF('./test11/qrpglesrc/$*.rpgle')
