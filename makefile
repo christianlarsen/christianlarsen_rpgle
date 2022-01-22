@@ -8,4 +8,4 @@ all: test11.rpgle
 %.rpgle:
 system -s "CHGATR OBJ('/home/CLV/test11/qrpglesrc/$*.rpgle') ATR(*CCSID) VALUE(1252)"
 liblist -a $(LIBLIST);\
-system "CRTBNDRPG OBJ($(BIN_LIB)/$*) SRCSTMF('/home/CLV/test11/qrpglesrc/$*.rpgle')"
+system "CRTBNDRPG PGM($(BIN_LIB)/$*) SRCSTMF('/home/CLV/test11/qrpglesrc/$*.rpgle')"
