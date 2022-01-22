@@ -12,7 +12,7 @@ end-pr;
 dcl-s number zoned(5);
 dcl-s othernumber zoned(5);
 dcl-s result zoned(5);
-dcl-ds data;
+dcl-ds qualified data;
     a zoned(1);
     b zoned(2);
 end-ds;
