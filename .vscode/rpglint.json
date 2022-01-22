@@ -17,5 +17,13 @@
   "RequiresProcedureDescription": true,
   "NoGlobalsInProcedures": true,
   "CopybookDirective": "include",
-  "UselessOperationCheck": true
+  "UselessOperationCheck": true,
+  "SpecificCasing": [
+    { "operation": "FOR",
+      "expected": "for"
+    },
+    { "operation": "DSPLY",
+      "expected": "dsply"
+    }
+  ]
 }
