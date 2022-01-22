@@ -1,7 +1,6 @@
 **free
 
-ctl-opt dftactgrp(*no) 
-    bnddir('QC2LE');
+ctl-opt dftactgrp(*no) bnddir('QC2LE');
 
 dcl-pr printf int(10) extproc('printf');
     format pointer value options(*string);
