@@ -10,5 +10,12 @@
   "RequiresParameter": true,
   "StringLiteralDupe": true,
   "NoSQLJoins": true,
-  "NoCTDATA": true 
+  "NoCTDATA": true,
+  "PrettyComments": true,
+  "UppercaseDirectives": true,
+  "RequireBlankSpecial": true,
+  "RequiresProcedureDescription": true,
+  "NoGlobalsInProcedures": true,
+  "CopybookDirective": "include",
+  "UselessOperationCheck": true
 }
