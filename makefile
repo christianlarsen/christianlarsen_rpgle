@@ -1,6 +1,6 @@
 
 BIN_LIB=CMPSYS
-LIBLIST=$(BIN_LIB) SAMPLE
+LIBLIST=$(BIN_LIB) CLV1
 SHELL=/QOpenSys/usr/bin/qsh
 
 all: test11.rpgle
