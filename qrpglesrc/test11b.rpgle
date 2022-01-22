@@ -1,6 +1,6 @@
 **free
 
-dsply "Hello world";
+dsply 'Hello world';
 
 *inlr = '1';
 return;
