@@ -23,6 +23,7 @@ othernumber = 5;
 result = number + othernumber;
 
 printf('The result is %d ': result);
+printf('Deploy made 2022/01/22, ok.');
 
 
 *inlr = '1';
