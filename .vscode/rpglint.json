@@ -10,5 +10,5 @@
   "RequiresParameter": true,
   "StringLiteralDupe": true,
   "NoSQLJoins": true,
-  "NoCTDATA": true
+  "NoCTDATA": true 
 }

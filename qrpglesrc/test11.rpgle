@@ -17,7 +17,7 @@ number = 2;
 othernumber = 5;
 result = number + othernumber;
 
-printf('The result is %d ': result);
+printf('The result is %d ': result); 
 
 *inlr = '1';
 return;
