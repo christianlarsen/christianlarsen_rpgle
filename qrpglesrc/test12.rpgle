@@ -10,6 +10,7 @@ end-ds;
 dsply 'Hello world!!';
 
 for a = 1 to 20;
+    dsply a;
 endfor;
 
 if (a = 1);
